@@ -1,5 +1,9 @@
+interface TextProps {
+  size?: 'sm' | 'md' | 'lg';
+}
+
 export function Text() {
   return (
-    <h1>Text</h1>
+    <span className="text-grey-100 font-sans">Text</span>
   )
 }
